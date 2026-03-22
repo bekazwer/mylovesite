@@ -1,0 +1,54 @@
+{
+  "defaultName": "Ruslan",
+  "proposals": [
+    {
+      "id": "proposal-1",
+      "stickerUrl": "assets/lottie/duckhey.json",
+      "title": "Hey {name}! 💖",
+      "text": "I love you more than anything. Will you be mine forever?",
+      "buttons": [
+        {"text": "💖 Yes", "action": "showProposal('proposal-yes')"},
+        {"text": "💔 No", "action": "showProposal('proposal-2')"}
+      ]
+    },
+    {
+      "id": "proposal-2",
+      "stickerUrl": "assets/lottie/duckxray.json",
+      "title": "Are you sure? 🥺",
+      "text": "You mean everything to me. Please say yes!",
+      "buttons": [
+        {"text": "🥰 Yes", "action": "showProposal('proposal-yes')"},
+        {"text": "😢 No", "action": "showProposal('proposal-3')"}
+      ]
+    },
+    {
+      "id": "proposal-3",
+      "stickerUrl": "assets/lottie/duckchmoke.json",
+      "title": "My heart is breaking... 💔",
+      "text": "I can't imagine my life without you. Please give us a chance!",
+      "buttons": [
+        {"text": "😍 Yes", "action": "showProposal('proposal-yes')"},
+        {"text": "😭 No", "action": "showProposal('proposal-4')"}
+      ]
+    },
+    {
+      "id": "proposal-4",
+      "stickerUrl": "assets/lottie/duckflashback.json",
+      "title": "Don't leave me... 😭",
+      "text": "You're my everything. Please say yes and make me the happiest person!",
+      "buttons": [
+        {"text": "❤️ Yes", "action": "showProposal('proposal-yes')"},
+        {"text": "💔 No", "action": "moveRandom", "id": "move-random"}
+      ]
+    },
+    {
+      "id": "proposal-yes",
+      "stickerUrl": "assets/lottie/duckdeal.json",
+      "title": "You said YES! 🥰",
+      "text": "I love you, {name}. Let's make forever amazing! 💞",
+      "buttons": [],
+      "loveText": "My dearest {name}, from the moment I met you, my world has been filled with colors I never knew existed. Every laugh we share, every silent moment, every dream we whisper — they all remind me that you are my greatest treasure. I promise to stand by you through storms and sunshine, to cherish your quirks, to hold your hand when you need strength, and to celebrate every small victory with you. You are my heart's home, and I am endlessly grateful for you. 💕",
+      "videoUrl": "assets/video/love.mp4"
+    }
+  ]
+}

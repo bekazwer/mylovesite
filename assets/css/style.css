@@ -1,0 +1,165 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffe5e5;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            gap: 20px;
+            max-width: 500px;
+            margin: 20px;
+            position: relative;
+        }
+        .sticker {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 2.2rem;
+            margin: 15px 0;
+        }
+        p {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn a {
+            text-decoration: none;
+            color: #fff;
+            background: #e91e63;
+            padding: 12px 30px;
+            border-radius: 25px;
+            box-shadow: 0 4px 15px rgba(233,30,99,0.3);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .btn a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(233,30,99,0.4);
+        }
+        #move-random {
+            cursor: pointer;
+            background: #ff4081 !important;
+        }
+        .proposal-screen {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+#heartsCanvas 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+.love-letter-container {
+    max-width: 600px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+}
+
+.love-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.love-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-indent: 2em;
+    text-align: justify;
+    color: #5d2e2e; /* измените при желании */
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-wrapper iframe,
+.video-wrapper video {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+/* Убираем запрет скролла, оставляем только горизонтальный запрет */
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    padding: 20px 0; /* чтобы контент не прилипал к краям */
+}
+
+/* Общий стиль для карточек текста и кнопок */
+.text-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 20px 25px;
+    margin: 20px 0;
+    backdrop-filter: blur(5px); /* лёгкое размытие для красоты */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Для love-text (текст признания) делаем такой же стиль */
+.love-text {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 20px 25px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+/* Видео оставляем с отдельным фоном, если нужно */
+.video-wrapper {
+    margin: 20px 0;
+}
+
+/* Убираем лишние отступы у элементов внутри карточки */
+.text-card h1,
+.text-card p,
+.text-card .btn {
+    margin: 0 0 15px 0;
+}
+
+.text-card .btn:last-child {
+    margin-bottom: 0;
+}
+
+/* Немного корректируем кнопки внутри карточки */
+.text-card .btn {
+    margin-top: 10px;
+}
