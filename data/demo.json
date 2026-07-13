@@ -5,7 +5,7 @@
       "id": "proposal-1",
       "stickerUrl": "assets/lottie/duckhey.json",
       "title": "Сәлем, {name}! 💖",
-      "text": "Мен сені бәрінен де қатты жақсы көремін. Мәңгілікке менікі боласың ба?",
+      "text": "Мен сені бәрінен де қатты жақсы көремін. Мәңгі менікі боласың ба?",
       "buttons": [
         {"text": "💖 Иә", "action": "showProposal('proposal-yes')"},
         {"text": "💔 Жоқ", "action": "showProposal('proposal-2')"}
@@ -15,7 +15,7 @@
       "id": "proposal-2",
       "stickerUrl": "assets/lottie/duckxray.json",
       "title": "Сенімдісің бе? 🥺",
-      "text": "Сен мен үшін бәрімсің. Өтінемін, «иә» де!",
+      "text": "Сен менің барымсың. Өтінемін, «иә» де!",
       "buttons": [
         {"text": "🥰 Иә", "action": "showProposal('proposal-yes')"},
         {"text": "😢 Жоқ", "action": "showProposal('proposal-3')"}
@@ -24,7 +24,7 @@
     {
       "id": "proposal-3",
       "stickerUrl": "assets/lottie/duckchmoke.json",
-      "title": "Жүрегім сынып барады... 💔",
+      "title": "Жүрегімді жараламашы... 💔",
       "text": "Сенсіз өмірімді елестете алмаймын. Өтінемін, бізге мүмкіндік бер!",
       "buttons": [
         {"text": "😍 Иә", "action": "showProposal('proposal-yes')"},
@@ -35,7 +35,7 @@
       "id": "proposal-4",
       "stickerUrl": "assets/lottie/duckflashback.json",
       "title": "Мені тастап кетпе... 😭",
-      "text": "Сен менің бәрімсің. Өтінемін, «иә» де де, мені ең бақытты адам ет!",
+      "text": "Сен менің өмірімнің мәнісің. Өтінемін, «иә» деп, мені ең бақытты адам ет!",
       "buttons": [
         {"text": "❤️ Иә", "action": "showProposal('proposal-yes')"},
         {"text": "💔 Жоқ", "action": "moveRandom", "id": "move-random"}
@@ -45,7 +45,7 @@
       "id": "proposal-yes",
       "stickerUrl": "assets/lottie/duckdeal.json",
       "title": "Сен «Иә» дедің! 🥰",
-      "text": "Мен сені жақсы көремін, {name}. Мәңгілікті бірге тамаша етейік! 💞",
+      "text": "Мен сені жақсы көремін, {name}💞",
       "buttons": [],
       "loveText": "Қымбаттым {name}, мен сені кездестірген сәттен бастап, менің әлемім бұрын-соңды білмеген түстерге толы болды. Біз бөліскен әрбір күлкі, әрбір үнсіз сәт, әрбір сыбырлаған арман — барлығы да сенің менің ең үлкен байлығым екеніңді еске салады. Мен саған дауыл мен күн сәулесінде де қасыңда болуға, сенің қылықтарыңды бағалауға, күш керек болғанда қолыңнан ұстауға және сенімен бірге әр кішкентай жеңісті тойлауға уәде беремін. Сен — менің жүрегімнің үйісің, және мен саған шексіз ризамын. 💕",
       "videoUrl": "assets/video/love.mp4"
