@@ -15,7 +15,7 @@
       "id": "proposal-2",
       "stickerUrl": "assets/lottie/duckxray.json",
       "title": "Сенімдісің бе? 🥺",
-      "text": "Сен мен үшін бәрісің. Өтінемін, «иә» де!",
+      "text": "Сен мен үшін бәрімсің. Өтінемін, «иә» де!",
       "buttons": [
         {"text": "🥰 Иә", "action": "showProposal('proposal-yes')"},
         {"text": "😢 Жоқ", "action": "showProposal('proposal-3')"}
